@@ -1,0 +1,25 @@
+body{
+	margin: 0 auto;
+}
+#content {
+	width: 100%;
+	border: 1px solid #e3e3e3;
+	height: 900px;
+}
+.container {
+	position: relative;
+	padding: 10px;
+	border: 1px solid #e3e3e3;
+	margin: 0 auto;
+	width: 300px;
+	overflow: hidden;
+}
+.items,.item,.container {
+	float: left;
+}
+.container .item {
+	margin-left: 10px;
+}
+.container .item.first {
+	margin-left: 0;
+}
